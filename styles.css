@@ -3,6 +3,38 @@
     button { cursor: pointer; font-family: inherit; border: none; }
     a { text-decoration: none; }
 
+    @font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url('files/HelveticaNeueCyr-Roman.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url('files/HelveticaNeueCyr-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url('files/HelveticaNeueCyr-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Onder';
+  src: url('files/Onder.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
     body {
     min-height: 100vh;
     font-family: 'HelveticaNeueCyr', sans-serif;
@@ -290,7 +322,7 @@
       border: 1.5px solid #444;
       border-radius: 24px;
       padding: clamp(14px, 1.6vw, 22px) clamp(20px, 2vw, 30px);
-      font-family: 'Inter', Arial, sans-serif;
+      font-family: 'Inter', sans-serif;
       font-size: clamp(14px, 1vw, 18px);
       color: #444;
       background: transparent;
